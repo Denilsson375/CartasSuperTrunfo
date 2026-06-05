@@ -1,10 +1,7 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Nível Mestre
-// Implementando Comparações Avançadas com Atributos Múltiplos
-
-int main(){
-    // Área para definição das variáveis das cartas
+  int main(){
+    // Definição das variáveis das cartas
     char estado1[20], estado2[20];
     char codigo1[20], codigo2[20];
     char cidade1[20], cidade2[20];
@@ -23,7 +20,7 @@ int main(){
     float soma1, soma2;
     char nome_atb1[30], nome_atb2[30]; // atb= atibuto
 
-    // CADASTRO DAS CARTAS (Mantido dos desafios anteriores)
+    // Cadastro das cartas
     
     printf("===== CARTA 01 =====\n");
     printf("Digite o Nome do Estado: ");
@@ -184,7 +181,7 @@ int main(){
     } else {
         printf(" Vencedor do atributo 2: %s\n\n", (valor1_atb2 > valor2_atb2) ? cidade1 : (valor1_atb2 < valor2_atb2 ? cidade2 : "Empate"));
     }
-    
+
 
     // Confronto Final
     printf("=========================================\n");
