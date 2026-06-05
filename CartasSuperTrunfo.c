@@ -1,7 +1,7 @@
 #include <stdio.h>
 
   int main(){
-    // Definição das variáveis das cartas
+    // variáveis das cartas
     char estado1[20], estado2[20];
     char codigo1[20], codigo2[20];
     char cidade1[20], cidade2[20];
