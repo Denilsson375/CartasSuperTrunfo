@@ -184,6 +184,7 @@ int main(){
     } else {
         printf(" Vencedor do atributo 2: %s\n\n", (valor1_atb2 > valor2_atb2) ? cidade1 : (valor1_atb2 < valor2_atb2 ? cidade2 : "Empate"));
     }
+    
 
     // Confronto Final
     printf("=========================================\n");
